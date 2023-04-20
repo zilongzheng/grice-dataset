@@ -1,0 +1,15 @@
+learning_rate: 0.001
+name: memn2n_qa
+
+concat_history: false
+
+model:
+  encoder: 'memn2n'
+  
+  max_seq_len: 16
+  word_embedding_size: 30
+  memory_size: 50
+  num_hops: 3
+  use_bow: false
+  use_lw: false
+  use_ls: false

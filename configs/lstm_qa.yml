@@ -1,0 +1,13 @@
+learning_rate: 0.001
+name: simple_lstm_qa
+
+concat_history: true
+
+model:
+  encoder: 'lstmqa'
+  
+  max_seq_len: 17
+  word_embedding_size: 30
+  rnn_hidden_size: 256
+  rnn_num_layers: 2
+  dropout: 0.2
